@@ -1,4 +1,4 @@
-<h1>Sign Up</h1>
+<h1 class="users-new-h1">Sign Up</h1>
 
 <form action="<%= users_url %>" method="post">
     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
@@ -10,5 +10,5 @@
     Password:
     <input type="password" name="user[password]">
   </label>
-  <input type="submit" value="Go!!!">
+  <input type="submit" value="Submit" class='waves-effect waves-light btn-large'>
 </form>
