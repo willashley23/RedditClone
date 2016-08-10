@@ -1,5 +1,5 @@
 class SubsController < ApplicationController
-before_action :require_user!
+before_action :require_user!, only: [:create, :edit, :update]
   def index
     @subs = Sub.all
     render :index

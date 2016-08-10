@@ -19,3 +19,15 @@
   text-align: center;
   font-size: 50px;
 }
+
+
+#nav_mobile li {
+  float: right;
+}
+
+.nav-h3 {
+  position: relative;
+  top: 500px;
+  color: black;
+  font-size: 20px;
+}
