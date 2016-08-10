@@ -44,3 +44,20 @@
 .user-show-h3 {
   font-size: 35px;
 }
+
+.session-form, .users-form, .subs-form {
+  width: 50%;
+}
+
+.subs-index-p {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: inline;
+}
+
+.sub-links {
+  text-align: center;
+}
+
+

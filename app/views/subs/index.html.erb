@@ -1,6 +1,7 @@
 <h1 class="index-h1">Welcome to Reddit on Rails</h1>
-<ul>
-<% @subs.each do |sub| %>
-  <li> <%= link_to sub.title, sub_url(sub) %> </li>
-  <% end %>
-</ul>
+  <div class="sub-links">
+    <% @subs.each do |sub| %>
+      <p class="subs-index-p"><%= link_to sub.title, sub_url(sub) %> •</p>
+      <% end %>
+  </div>
+
