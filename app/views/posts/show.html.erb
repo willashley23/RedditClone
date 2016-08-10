@@ -6,11 +6,12 @@
 Body: <%= @post.content %>
 </p>
 
-<p>
-  <% @post.comments.each do |c| %>
-    <%= c.content %>
-  <% end %>
-</p>
+<h3 class="post-show-h3">Comments:</h3>
+<% @post.comments.each do |c| %>
+  <p class="author-p"><%= c.author.username %> said:</p>
+  <p class="author-content"><%= c.content %></p>
+<% end %>
+
 <p>
   <%= button_to("Write Comment", new_post_comment_url(@post), method: :get, :class => "btn btn-success") %>
 </p>

@@ -14,6 +14,10 @@
  *= require_self
  */
 
+p, h2 {
+  font-family: 'Droid Sans', sans-serif;
+}
+
 h1 {
   font-family: 'Passion One', cursive;
 }
@@ -71,5 +75,31 @@ h1 {
 
 .new-post-form {
   width: 50%;
+}
+
+.user-show-p {
+  text-decoration: none:
+  font-size: 30px;
+}
+
+.author-p {
+  font-style: oblique;
+  font-size: 18px;
+  padding-left: 25px;
+  line-height: 2px;
+}
+
+.author-content {
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+.author-content {
+  text-indent: 45px;
+}
+
+.post-show-h3 {
+  font-size: 30px;
+  font-family: 'Passion One', cursive;
 }
 

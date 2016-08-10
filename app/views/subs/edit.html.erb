@@ -1,4 +1,4 @@
-<h1>Edit you sub</h1>
+<h1>Edit your sub</h1>
 
 <form action= "<%= sub_url(@sub) %>" method="post">
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
@@ -7,7 +7,7 @@
     Title: <input type="text" name="sub[title]" value=" <%= @sub.title %>">
   </label>
   <label>
-    Description: <textarea name="sub[description]" rows="8" cols="40"> <%= @sub.description %> </textarea>
+    Description: <textarea name="sub[description]" rows="8" cols="40" class="materialize-textarea"> <%= @sub.description %> </textarea>
   </label>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit" class = "btn btn-success">
 </form>
