@@ -27,7 +27,7 @@ class ApplicationController < ActionController::Base
   def require_no_user!
   end
 
-  def require_user
+  def require_user!
     redirect_to new_session_url unless logged_in?
   end
 
