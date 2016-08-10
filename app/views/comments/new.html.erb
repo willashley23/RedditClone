@@ -5,7 +5,7 @@
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 
   <label>
-    Comment: <textarea name="comment[content]" rows="8" cols="40"></textarea>
+    Comment: <textarea name="comment[content]" rows="8" cols="40" class="materialize-textarea"></textarea>
   </label>
 
   <input type="hidden" name="comment[post_id]" value="<%= params[:post_id]  %>">

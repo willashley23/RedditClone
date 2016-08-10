@@ -12,9 +12,9 @@ Body: <%= @post.content %>
   <% end %>
 </p>
 <p>
-  <%= button_to "Write Comment", new_post_comment_url(@post), method: :get %>
+  <%= button_to("Write Comment", new_post_comment_url(@post), method: :get, :class => "btn btn-success") %>
 </p>
 
 <% if current_user == @author %>
-  <%= button_to "Edit", edit_post_url, method: :get %>
+  <%= button_to("Edit", edit_post_url, method: :get, :class => "btn btn-success")%>
 <% end %>
